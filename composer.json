@@ -1,0 +1,17 @@
+{
+    "name": "igor/shopping-cart",
+    "description": "Shopping cart project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Igor Djurdjic",
+            "email": "igor.djurdjic89@gmail.com"
+        }
+    ],
+    "require": {}
+}
