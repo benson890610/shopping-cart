@@ -78,11 +78,18 @@ while ( $row = $statement->fetchObject('Product') ) {
                 <span class="text-2xl">Home</span>
             </a>
         </div>
-        <div>
+        <div style="position: relative">
             <span style="cursor: pointer" onclick="showCartItems()">
                 <i class="fa-solid fa-cart-shopping"></i>
             </span>
             <span id="totalCartProducts" class="relative top-1 text-blue-700 font-bold text-lg">0</span>
+            <div 
+                id="cart-items" 
+                style="background: white; opacity: 0; transition: all .4s ease; width: 30rem; padding: 15px 10px; position: absolute; top: 30px; z-index: 999; left: -440px"
+                
+                >
+                
+            </div>
         </div>
     </nav>
 
